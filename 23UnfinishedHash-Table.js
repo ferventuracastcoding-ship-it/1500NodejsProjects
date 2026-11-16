@@ -1,4 +1,4 @@
-
+// HASH TABLES
 "use strict";
 
 const readline = require("readline");
@@ -10,6 +10,7 @@ const readline = require("readline");
 class HashTable {
 
     constructor(size = 10) {
+        // What does this mean?
         this.size = size;
         this.buckets = Array.from(
             { length: size },
