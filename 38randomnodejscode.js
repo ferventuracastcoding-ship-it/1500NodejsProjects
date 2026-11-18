@@ -1,3 +1,4 @@
+// This code is not to be taken seriousely it's to learn the syntax of the langes
 PORT=3000
 
 MONGO_URI=mongodb://127.0.0.1:27017/authentication_db
