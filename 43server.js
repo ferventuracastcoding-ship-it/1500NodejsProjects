@@ -1,3 +1,5 @@
+// This code is mentioned to practice
+// Node.js syntax
 http://localhost:3000/api/pokemon
 http://localhost:3000/api/pokemon/25
 http://localhost:3000/api/pokemon/type/fire
