@@ -1,3 +1,4 @@
+// practice code to get better at Node.js
 // Import Express.
 const express = require("express");
 
@@ -24,10 +25,8 @@ const conversations = [];
 // --------------------------------------------------
 
 function generateAIResponse(message) {
-
     // Convert the message to lowercase.
     const text = message.toLowerCase();
-
     // Greeting detection.
     if (
         text.includes("hello") ||
@@ -36,7 +35,6 @@ function generateAIResponse(message) {
     ) {
         return "Hello! I am your Node.js AI assistant. How can I help you today?";
     }
-
     // JavaScript question.
     if (
         text.includes("javascript") ||
