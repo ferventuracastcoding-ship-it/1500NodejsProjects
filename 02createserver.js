@@ -19,18 +19,15 @@ let missions = [
     }
 ];
 
-
 // Home route
 app.get("/", (req,res)=>{
     res.send("🚀 Space Mission API Running");
 });
 
-
 // Get all missions
 app.get("/missions",(req,res)=>{
     res.json(missions);
 });
-
 
 // Get one mission
 app.get("/missions/:id",(req,res)=>{
@@ -47,7 +44,6 @@ app.get("/missions/:id",(req,res)=>{
     res.json(mission);
 });
 
-
 // Create mission
 app.post("/missions",(req,res)=>{
 
@@ -63,7 +59,6 @@ app.post("/missions",(req,res)=>{
     res.json(newMission);
 });
 
-
 // Delete mission
 app.delete("/missions/:id",(req,res)=>{
 
@@ -76,7 +71,6 @@ app.delete("/missions/:id",(req,res)=>{
     });
 
 });
-
 
 // Start server
 app.listen(3000,()=>{
